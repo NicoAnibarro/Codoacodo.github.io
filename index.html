@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikbook</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">Nikbook</span>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-container">
+          <h2>Registrarse</h2>
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="contraseña">Contraseña</label>
+              <input type="password" class="form-control" id="contraseña" placeholder="Ingrese su contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <hr>
+        <div class="form-container">
+          <h2>Iniciar Sesión</h2>
+          <form action="index.html">
+            <div class="form-group">
+              <label for="correo_login">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo_login" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="contraseña_login">Contraseña</label>
+              <input type="password" class="form-control" id="contraseña_login" placeholder="Ingrese su contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<footer>
+    <p>Derechos de autor &copy; 2024 - Nico A. <span>"The big eye is always watching"</span></p>
+</footer>
+
+</html>
