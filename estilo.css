@@ -1,0 +1,140 @@
+body{
+    background: content-box radial-gradient(rgb(142, 35, 56), rgb(246, 246, 246));
+    color: #343a40;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+}
+
+.navbar-nav button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.amigos-container,
+.fotos-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amigo,
+.foto-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.amigo img,
+.foto-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.amigo p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.amigo-fotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.amigo-fotos img {
+    max-width: 30%;
+    height: auto;
+    margin: 5px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* CSS para perfil_amigo.html */
+.amigo-detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.amigo-detalle img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.amigo-detalle p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.amigo-detalle .botones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
